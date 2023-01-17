@@ -1,10 +1,23 @@
+#n1 = input("N1=")
+#n2 = input("N2=")
+#print("Soma = ", n1 + n2)
+
+
+
+nome = "Felipe"
+idade = 38
+
+print("Nome: {0} e Idade: {1}".format(nome, idade))
+
+
+
 """ CONTADOR
 contador = 0
 while contador < 10:
     if contador > 5:
         print (contador)
     contador = contador + 1
-"""
+
 
 print("\x1b[2J\x1b[1;1H")
 
@@ -22,3 +35,4 @@ print(lista)
 
 lista.clear()
 print(lista)
+"""

@@ -5,9 +5,9 @@ public class Programa {
     /*
     public static void main(String[] args) {
         int i, j;
-
+    
         System.out.print("\033\143"); //Clear console
-
+    
         for (i = 1; i <= 2; i++) {
             j = 0;
             do {
@@ -17,7 +17,25 @@ public class Programa {
         }
     }
     */
+    public static void main(String[] args) 
+    {
+        int matriz[][] = new int[3][4];
 
+        int l, c;
+
+        for (l = 0; l < 3; l++) {
+            for (c = 0; c < 4; c++) {
+                matriz[l][c] = l + c;
+            }
+        }
+
+        System.out.println(matriz[1][0]);
+        System.out.println(matriz[1][1]);
+        System.out.println(matriz[1][2]);
+        System.out.println(matriz[1][3]);
+    }
+}
+/*
 	public static void main(String[] args)
 	{
         try (Scanner entrada = new Scanner(System.in)) 
@@ -61,3 +79,4 @@ public class Programa {
 
 
 }
+*/
